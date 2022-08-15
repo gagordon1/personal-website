@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Projects from './components/Projects';
+import Links from './components/Links';
+
 
 function App() {
   return (
@@ -7,6 +10,8 @@ function App() {
       <header className="App-header">
         Garrett Gordon's Project Portfolio
       </header>
+      <Projects/>
+      <Links/>
     </div>
   );
 }

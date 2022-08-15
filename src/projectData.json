@@ -1,0 +1,12 @@
+
+{
+    "items" :[
+        {
+            "title" : "Sidechain",
+            "description" : "Asynchronous musical collaboration web3 project",
+            "technologies" : ["React.js", "Solidity", "S3", "DynamoDB", "Python3", "Flask", "Algorand"],
+            "demoLink"  : "",
+            "dates" : ["072022", "Present"]
+        }
+    ]
+}
