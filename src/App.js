@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Projects from './components/Projects';
 import Links from './components/Links';
