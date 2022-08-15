@@ -6,7 +6,59 @@
             "description" : "Asynchronous musical collaboration web3 project",
             "technologies" : ["React.js", "Solidity", "S3", "DynamoDB", "Python3", "Flask", "Algorand"],
             "demoLink"  : "",
-            "dates" : ["072022", "Present"]
+            "deployedLink" : "",
+            "dates" : ["072022", "Present"],
+            "codeLinks" :{
+                "Front End & Blockchain Test Network" : "https://github.com/gagordon1/sidechain-frontend",
+                "Flask Server" : "https://github.com/gagordon1/sidechain-backend"
+            }
+        },
+        {
+            "title" : "Stripe & Printful Merchandise Store",
+            "description" : "Web store with stripe payment processing. Items on the website can be pulled directly from Printful, a droppshipper with customizable merchandise (apparel, greeting cards, etc.)",
+            "technologies" : ["Node.js", "Express", "React.js", "Stripe API", "MongoDB"],
+            "demoLink"  : "",
+            "deployedLink" : "https://webstore-frontend.herokuapp.com",
+            "dates" : ["062022"],
+            "codeLinks" :{
+                "Frontend" : "https://github.com/gagordon1/web-store-frontend",
+                "Backend" : "https://github.com/gagordon1/printful-interface"
+            }
+        },
+        {
+            "title" : "Friendify",
+            "description" : "Spotify app for sharing music taste. Pulls in top Spotify items for a user. Users can generate shareable links for others to join and compare top items. Mobile-friendly and able to play spotify previews in-app.",
+            "technologies" : ["Node.js", "Express.js", "React.js", "Spotify API", "DynamoDB"],
+            "demoLink"  : "",
+            "deployedLink" : "https://friendify-frontend.herokuapp.com/?user=garrettg45",
+            "dates" : ["062022"],
+            "codeLinks" :{
+                "Frontend" : "https://github.com/gagordon1/friendify-frontend",
+                "Backend" : "https://github.com/gagordon1/friendify-backend"
+            }
+        },
+        {
+            "title" : "Gemini Trading Bot",
+            "description" : "Built a trading system for the gemini crypto exchange. Only made one strategy which wasn't profitable but definitely want to return to it in the future and build a testing system to develop strategies.",
+            "technologies" : ["Python3", "Gemini Exchange API"],
+            "demoLink"  : "",
+            "deployedLink" : "",
+            "dates" : ["062022"],
+            "codeLinks" :{
+                "Code" : "https://github.com/gagordon1/gemini-trading-bot"
+            }
+        },
+        {
+            "title" : "DJ Assistant",
+            "description" : "Web Application for DJs that uses the Python library Spleeter to isolate vocals & accompaniments from web audio, and add songs to a beatport cart using a Puppeteer bot.",
+            "technologies" : ["React.js", "Python3","Spleeter", "Puppeteer"],
+            "demoLink"  : "",
+            "deployedLink" : "http://dj-assistant-frontend.herokuapp.com",
+            "dates" : ["062022"],
+            "codeLinks" :{
+                "Frontend" : "https://github.com/gagordon1/dj-assistant-frontend",
+                "Backend" : "https://github.com/gagordon1/dj-assistant"
+            }
         }
     ]
 }
