@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Garrett Gordon's Project Portfolio
+        <h1>Garrett Gordon</h1>
+        <h3>Project Portfolio</h3>
       </header>
       <Projects/>
       <Links/>
