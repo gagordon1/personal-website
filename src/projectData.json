@@ -15,7 +15,7 @@
         },
         {
             "title" : "Stripe & Printful Merchandise Store",
-            "description" : "Web store with stripe payment processing. Items on the website can be pulled directly from Printful, a droppshipper with customizable merchandise (apparel, greeting cards, etc.)",
+            "description" : "Web store with Stripe payment processing. Items on the website can be pulled directly from Printful, a droppshipper with customizable merchandise (apparel, greeting cards, etc.)",
             "technologies" : ["Node.js", "Express", "React.js", "Stripe API", "MongoDB"],
             "demoId"  : "pJCwYySphAw",
             "deployedLink" : "https://webstore-frontend.herokuapp.com",

@@ -1,7 +1,12 @@
-import styled from "styled-components"
+import styled, {keyframes} from "styled-components"
 
 const videoRatio = 917/573
 const height = 300 //pixels
+
+const fadeIn = keyframes`
+    from { opacity: 0; }
+    to   { opacity: 1; }
+`
 
 const ProjectContainer = styled.div`
     display : grid;
@@ -12,13 +17,17 @@ const InfoContainer = styled.div`
     display : flex;
     flex-direction : column;
     text-align : ${props => props.align};
+    -webkit-animation: ${fadeIn} 1s ease-in;
 `
 
 const Demo = styled.iframe`
     width : ${Math.round(height*videoRatio)}px;
     height : ${height}px;
     justify-self : ${props => props.align};
+    -webkit-animation: ${fadeIn} 1s;
 `
+
+
 
 export default function Project(props){
 

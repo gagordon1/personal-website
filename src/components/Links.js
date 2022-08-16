@@ -37,10 +37,10 @@ export default function Links(){
     console.log(typeof linkData.linkedin)
     return (
         <LinkContainer>
-            <a target="_blank" href={linkData.linkedin}>
+            <a target="_blank" rel="noopener noreferrer" href={linkData.linkedin}>
                 <LinkedinImage src={LinkedinLogoImage}/>
             </a>
-            <a target="_blank" href={linkData.github}>
+            <a target="_blank" rel="noopener noreferrer" href={linkData.github}>
                 <GithubImage src={GithubLogoImage}/>
             </a>
             <GmailImage src={GmailLogoImage}
