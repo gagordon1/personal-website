@@ -3,7 +3,7 @@
     "items" :[
         {
             "title" : "Sidechain",
-            "description" : "Asynchronous musical collaboration web3 project",
+            "description" : "Musical collaboration web3 project that I'm building as part of a hackathon. It allows musicians to collaborate asynchrounously by posting intellectual property while specifying collaboration terms. For example, I can post the vocals to one of my songs, allowing others to remix it and my specified ownership in the remixes will be maintained on chain.",
             "technologies" : ["React.js", "Solidity", "S3", "DynamoDB", "Python3", "Flask", "Algorand"],
             "demoId"  : "",
             "deployedLink" : "",
@@ -15,7 +15,7 @@
         },
         {
             "title" : "Stripe & Printful Merchandise Store",
-            "description" : "Web store with Stripe payment processing. Items on the website can be pulled directly from Printful, a droppshipper with customizable merchandise (apparel, greeting cards, etc.)",
+            "description" : "Web store with Stripe payment processing. Items on the website are pulled directly from Printful, a droppshipper with customizable merchandise (apparel, greeting cards, etc.)",
             "technologies" : ["Node.js", "Express", "React.js", "Stripe API", "MongoDB"],
             "demoId"  : "pJCwYySphAw",
             "deployedLink" : "https://webstore-frontend.herokuapp.com",
@@ -29,7 +29,7 @@
             "title" : "Friendify",
             "description" : "Spotify app for sharing music taste. Pulls in top Spotify items for a user. Users can generate shareable links for others to join and compare top items. Mobile-friendly and able to play spotify previews in-app. You'll need to get approved with Spotify to use it so just email me if you'd like to test it out.",
             "technologies" : ["Node.js", "Express.js", "React.js", "Spotify API", "DynamoDB"],
-            "demoId"  : "1LdVe909ULU",
+            "demoId"  : "iUHCsiJfZBM",
             "deployedLink" : "",
             "dates" : ["062022"],
             "codeLinks" :{
@@ -39,7 +39,7 @@
         },
         {
             "title" : "Gemini Trading Bot",
-            "description" : "Built a trading system for the gemini crypto exchange. Only made one strategy which wasn't profitable but definitely want to return to it in the future and build a testing system to develop strategies.",
+            "description" : "Built an automated trading system for the gemini crypto exchange. Supports defining a strategy with Python which specifies when to place limit orders on the exchange, then running it until it reaches its end condition. I want to return to it in the future and build a testing system to develop more strategies.",
             "technologies" : ["Python3", "Gemini Exchange API"],
             "demoId"  : "26G3QkAY8Uc",
             "deployedLink" : "",

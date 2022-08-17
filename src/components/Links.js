@@ -12,6 +12,7 @@ const LinkContainer = styled.div`
     margin-right : auto;
     align-items : center;
     gap : 40px;
+    filter : drop-shadow(4px 4px 4px rgba(0,0,0,.25));
 `
 
 const imageRatio = 347/300
