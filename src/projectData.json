@@ -3,9 +3,9 @@
     "items" :[
         {
             "title" : "Sidechain",
-            "description" : "Musical collaboration web3 project that I'm building as part of a hackathon. It allows musicians to collaborate asynchrounously by posting intellectual property while specifying collaboration terms. For example, I can post the vocals to one of my songs, allowing others to remix it and my specified ownership in the remixes will be maintained on chain.",
+            "description" : "Musical collaboration web3 project that I'm building as part of a hackathon. It allows musicians to collaborate asynchrounously by posting intellectual property while specifying collaboration terms. For example, I can post the vocals to one of my songs, allowing others to remix it and my specified ownership in the remixes will be maintained on chain. Payments made to the contract are split according to ownership.",
             "technologies" : ["React.js", "Solidity", "S3", "DynamoDB", "Python3", "Flask", "Algorand"],
-            "demoId"  : "",
+            "demoId"  : "BAvAvJysfm4",
             "deployedLink" : "",
             "dates" : ["072022", "Present"],
             "codeLinks" :{
