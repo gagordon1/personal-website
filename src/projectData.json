@@ -9,8 +9,9 @@
             "deployedLink" : "",
             "dates" : ["072022", "Present"],
             "codeLinks" :{
-                "Front End & Blockchain Test Network" : "https://github.com/gagordon1/sidechain-frontend",
-                "Flask Server" : "https://github.com/gagordon1/sidechain-backend"
+                "Front End" : "https://github.com/gagordon1/sidechain-frontend",
+                "Flask Server" : "https://github.com/gagordon1/sidechain-backend",
+                "Smart Contract" : "https://github.com/gagordon1/sidechain-frontend/blob/master/contracts/SidechainERC721.sol"
             }
         },
         {
