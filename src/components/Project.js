@@ -19,7 +19,6 @@ const InfoContainer = styled.div`
 const DemoVideo = styled.iframe`
     width : ${Math.round(height*videoRatio)}px;
     height : ${height}px;
-    justify-self : ${props => props.align};
     filter : drop-shadow(4px 4px 4px rgba(0,0,0,.25));
 `
 const GithubImage = styled.img`
@@ -53,6 +52,7 @@ const DemoAndLoaderContainer = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
+    justify-self : ${props => props.align};
 `
 
 function GithubLink(props){
@@ -101,7 +101,6 @@ export default function Project(props){
             <DemoVideo src={`https://www.youtube.com/embed/${props.data.demoId}`} 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen
-                align={props.left? "right" : "left"}
                 frameBorder="0"
                 >
             </DemoVideo>
@@ -114,7 +113,7 @@ export default function Project(props){
         return (
             <ProjectContainer>
                 <Info/>
-                <DemoAndLoaderContainer>
+                <DemoAndLoaderContainer align={props.left? "right" : "left"}>
                     <Loader/>
                     <Demo/>
                 </DemoAndLoaderContainer>
@@ -125,7 +124,7 @@ export default function Project(props){
     }else{
         return(
             <ProjectContainer>
-                <DemoAndLoaderContainer>
+                <DemoAndLoaderContainer align={props.left? "right" : "left"}>
                     <Loader/>
                     <Demo/>
                 </DemoAndLoaderContainer>
