@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Heading2, InfoText } from "./Text"
 import GithubLogoImage from "../assets/github_logo.png"
+import Loader from "./Loader"
 
 const videoRatio = 917/573
 const height = 300 //pixels
@@ -48,6 +49,12 @@ const ImageLink = styled.a`
     align-items : center;
 `
 
+const DemoAndLoaderContainer = styled.div`
+    display : flex;
+    justify-content : center;
+    align-items : center;
+`
+
 function GithubLink(props){
     return(
         <Clickable>
@@ -62,6 +69,8 @@ function GithubLink(props){
 
 
 export default function Project(props){
+
+    
 
     function Info(){
         return(
@@ -87,12 +96,16 @@ export default function Project(props){
     }
 
     function Demo(){
+        
         return(
             <DemoVideo src={`https://www.youtube.com/embed/${props.data.demoId}`} 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen
-                align={props.left? "right" : "left"}>
+                align={props.left? "right" : "left"}
+                frameBorder="0"
+                >
             </DemoVideo>
+            
         )
     }
 
@@ -101,14 +114,23 @@ export default function Project(props){
         return (
             <ProjectContainer>
                 <Info/>
-                <Demo/>
+                <DemoAndLoaderContainer>
+                    <Loader/>
+                    <Demo/>
+                </DemoAndLoaderContainer>
+                
+                
             </ProjectContainer>
         )
     }else{
         return(
             <ProjectContainer>
-                <Demo/>
+                <DemoAndLoaderContainer>
+                    <Loader/>
+                    <Demo/>
+                </DemoAndLoaderContainer>
                 <Info/>
+
             </ProjectContainer>
         )
     }
