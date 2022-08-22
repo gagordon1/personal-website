@@ -75,7 +75,13 @@ export default function Project(props){
     function Info(){
         return(
             <InfoContainer align={props.left? "left" : "right"}>
-                <Heading2>{props.data.title}</Heading2>
+                {props.data.deployedLink?
+                    <a href={props.data.deployedLink} style={{color : "#000000"}}>
+                        <Heading2>{props.data.title}</Heading2>
+                    </a>
+                    :
+                    <Heading2>{props.data.title}</Heading2>
+                }
                 <InfoText>{props.data.description}</InfoText>
                 <InfoText>
                     <b>Technologies: </b>
